@@ -33,7 +33,7 @@ body {
 }
 
 .appointments-column {
-    width : 32vh ;
+    width : 37vh ;
     height: 95vh;
     padding: 10px;
     background-color: #ffffff;
@@ -354,7 +354,7 @@ td:first-child {
     justify-content: space-around;
     align-items: center;
     height: 15vh;
-    width: 24.5vh;
+    width: 28.5vh;
     border: #000000 1px solid;
     border-radius: 3px;
     flex-wrap: wrap;

@@ -1,4 +1,9 @@
 import React from 'react';
+import homeImage from '../assets/img/home.png';
+import scheduleImage from '../assets/img/schedule.png';
+import calendarImage from '../assets/img/calendar.png';
+import invoiceImage from '../assets/img/invoice.png';
+import inventoryImage from '../assets/img/inventory.png';
 
 const Navbar = () => {
     return (
@@ -9,22 +14,23 @@ const Navbar = () => {
             <div className="nav-body">
                 <ul>
                     <li>
-                        <img src="./img/home.png" alt="Home" />
+                        <img src={homeImage} alt="Home" />
                         <a href="#">Home</a>
                     </li>
                     <li>
-                        <img src="./img/schedule.png" alt="Agendar Citas" />
-                        <a href="#" >Agendar Citas</a>
+                        <img src={scheduleImage} alt="Agendar Citas" />
+                        <a href="#">Agendar Citas</a>
                     </li>
                     <li>
-                        <img src="./img/calendar.png" alt="Calendario" />
+                        <img src={calendarImage} alt="Calendario" />
                         <a href="#">Calendario</a>
                     </li>
                     <li>
-                        <img src="./img/invoice.png" alt="Ventas"/>
+                        <img src={invoiceImage} alt="Ventas" />
                         <a href="#">Ventas</a>
-
-                        <img src="./img/inventory.png" alt="Inventario"/>
+                    </li>
+                    <li>
+                        <img src={inventoryImage} alt="Inventario" />
                         <a href="#">Inventario</a>
                     </li>
                 </ul>
